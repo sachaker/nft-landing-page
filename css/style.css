@@ -8,10 +8,10 @@
   --font-primary: 'Londrina Solid', sans-serif;
   --font-secondary: 'Londrina Solid', serif;
   --font-code: 'Londrina Solid', monospace;
-  --bg-color: #00163f;
+  --bg-color: #000;
   --font-color: #ffffff;
-  --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --btn-bg-color: #ec447e;
+  --accent-color: #b80141;
   --header-shadow: #000 0px 0px 5px;
 }
 
@@ -22,7 +22,8 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background: linear-gradient(180deg, rgba(0,15,54,1) 0%, rgba(0,11,40,1) 100%);
+  /* background-color: var(--bg-color); */
   display: flex;
   flex-flow: column;
   height: 100vh;
@@ -62,9 +63,9 @@ header .container {
   display: inline-block;
   padding: 1rem 2rem;
   background: var(--btn-bg-color);
-  color: var(--accent-color);
+  color: #ffffff;
   font-family: var(--font-secondary);
-  font-weight: bold;
+  font-weight: regular;
   font-size: 1rem;
   text-transform: capitalize;
   transition: all 0.3s ease;
@@ -127,7 +128,7 @@ section {
   border-radius: 4px 4px 0 0;
 }
 .countdown .clock-item .count-text {
-  background: var(--btn-bg-color);
+  background: #ffffff;
   font-family: var(--font-secondary);
   font-size: 1.1rem;
   color: var(--bg-color);
